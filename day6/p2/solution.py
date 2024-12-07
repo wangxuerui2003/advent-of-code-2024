@@ -93,7 +93,6 @@ for p in path:
 			if map[ni][nj] == '#' or (ni, nj) == p:
 				turns[(ni, nj)] += 1
 				if turns[(ni, nj)] >= 10:
-					print("loop")
 					loop = True
 					break
 				dir = turn_right(dir)
