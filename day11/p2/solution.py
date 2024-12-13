@@ -6,7 +6,7 @@ with open("input.txt", "r") as f:
 
 total = len(stones)
 
-memo = {}
+memo: dict[int, dict[int, int]] = {}
 
 TARGET_LAYERS = 75
 
