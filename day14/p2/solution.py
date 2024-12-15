@@ -93,6 +93,5 @@ while True:
     if check_christmas_tree(grid):
         save_grid(grid)
         break
-    print(seconds)
 
 print(seconds)
